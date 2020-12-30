@@ -26,7 +26,7 @@ public class Book {
     @NotEmpty
     private String name;
 
-    @Column(name = "authorname")
+    @Column(name = "authorName")
     @NotEmpty
     private String authorName;
 

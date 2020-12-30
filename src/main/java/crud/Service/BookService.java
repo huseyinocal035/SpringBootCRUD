@@ -9,13 +9,13 @@ public interface BookService {
 
     List<Book> findAllBooks(String name);
 
-    Optional<Book> findBook(long id);
+    Optional<Book> findBook(int id);
 
     Book createBook(Book book);
 
-    void updateBook(long id, Book book);
+    void updateBook(int id, Book book);
 
-    void deleteBook(long id);
+    void deleteBook(int id);
 
     void deleteAllBooks();
 }
